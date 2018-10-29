@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<title>Shrey Kanabar | Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+ <link rel="stylesheet" href="./css/style.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;}
+body, html {
+    height: 100%;
+    color: #515A5A;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('./img/rocks.jpg');
+    min-height: 100%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity{cursor:pointer;}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About Me</a>
+  <a href="presets.html">Presets</a>
+</div>
+
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("head").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+   // document.getElementById("showcase").style.filter = "blur(0px)";
+
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("head").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+    document.getElementById("head").style.filter = "blur(0px)";
+
+}
+</script>
+     
+</body>
+
+
+
+<div class="bgimg-1 w3-display-container" id="head">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-wide w3-text-white w3-large">HELLO AND </span>
+    <pre></pre>
+    <span class="w3-center w3-xxxlarge w3-wide w3-text-white">WELCOME <span class="w3-hide-small"></span> .</span>
+  </div>
+
+<img src="./img/logo.png" style="float:left;width:100px;height:100px;">
+
+<span style="color:#e8491d; font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+<button class="button" style="margin-left:426px; vertical-align:middle;margin-right: 0px"><span><a href="gallery.html" style="text-decoration: none">GALLERY</a> </span></button>
+
+<button class="button2" style="margin-left:100px; vertical-align:middle;"><span><a href="presets.html" style="text-decoration: none">PURCHASES </a></span></button>
+
+</div>
+
+      </section>
+
+
+  </header>
+
+<!--
+    <section id="newsletter">
+      <div class="container">
+        
+        <h3>Find out obout promotions and special offers</h3>
+        <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+          -->
+              </div>
+    </section>
+<style>
+h1 {
+        color: #515A5A;
+        font-size: 35px;
+}
+
+h2 {
+       color:#e8491d;
+}
+</style>
+<body>
+ 
+<h1><center>Featured Presets</center></h1>
+<h2><center>_______________________</center></h2>
+</body>
+
+
+
+
+
+
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <a href="presets.html"><img src="./img/logo_html.jpg" alt="stars" height="250">
+          <h3>Learn Adobe Photoshop CC</h3>
+          <p>Create anything you can imagine.
+Learn the basics, or refine your skills with tutorials designed to inspire.</p>
+        </div>
+        <div class="box">
+          <a href="presets.html"><img src="./img/logo_css.png" alt="visualsoj" height="250" >
+          <h3>Night City</h3>
+          <p>Learn to create your very own presets, this offers some tips on how to build a preset collection and what to avoid when you do.</p>
+        </div>
+        <div class="box">
+          <a href="presets.html"><img src="./img/logo_brush.png" alt="jacob" height="250">
+          <h3>Maldives Preset Pack</h3>
+          <p>Custom made Adobe Lightroom Presets</p>
+        </div>
+      </div>
+
+
+
+
+      <h2><center>_______________________</center></h2>
+    </section>
+
+
+
+
+
+
+    <footer class="w3-container w3-padding-64 w3-center w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <p class="w3-medium">Shrey Kanabar, Copyright &copy; 2018<a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green"></a></p>
+    </footer>
+  </body>
+</html>

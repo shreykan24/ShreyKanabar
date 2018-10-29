@@ -1,0 +1,31 @@
+
+/* Grid HTML Classes */
+.row {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+  *zoom: 1; }
+
+/* Styles for screens that are atleast 768px; */
+@media only screen and (min-width: 768px) {
+
+  .large-8 {
+    position: relative;
+    width: 38%;
+    float:left;
+
+     }
+
+  .large-9 {
+    position: relative;
+    width:25.3%;
+    float: right; 
+  }
+
+
+  
+
+

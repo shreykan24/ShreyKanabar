@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<title>Shrey Kanabar | Presets</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/foundation.css" rel="stylesheet" type="text/css" />
+  
+  <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;}
+body, html {
+    height: 67%;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('./img/jungle.jpg');
+    min-height: 100%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity{cursor:pointer;}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1{
+        background-attachment: scroll;
+    }
+}
+</style>
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About Me</a>
+  <a href="presets.html">Presets</a>
+</div>
+
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("home").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+   // document.getElementById("showcase").style.filter = "blur(0px)";
+
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("home").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+    document.getElementById("home").style.filter = "blur(0px)";
+
+}
+</script>
+     
+</body>
+
+<body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-xxxlarge w3-wide w3-text-white">PRESETS <span class="w3-hide-small"></span> .</span>
+  </div>
+<div id="main">
+
+  <img src="./img/logo.png" style="float:left;width:90px;height:90px;">
+
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+</div>
+
+</div>
+
+
+<div class="row" style="margin-top: 2em;">
+      <div class="large-4 columns">
+        
+        
+      </div>
+      <div class="large-8 columns ">
+        <div class="twentytwenty-container">
+          <img src="./img/beach1.jpg" />
+          <img src="./img/beach2.jpg" />
+        </div>
+        <h3 class="preset"> Maldives Preset Pack</h3>
+     <h4 class="preset">€4.99</h4>
+      </div>
+    </div>
+
+<style>
+.preset {
+    line-height: 1;
+}
+</style>
+
+
+     
+
+       <div class="large-9 columns" style="margin-right: 300px">
+        <div class="twentytwenty-container">
+          <img src="./img/city.jpg" height="494"/>
+          <img src="./img/city1.jpg" height="494" />
+        </div>
+        <h3 class="preset"> Night City</h3>
+     <h4 class="preset">€4.99</h4>
+      </div>
+    </div>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script>
+    $(function(){
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+    });
+    </script>
+  </body>
+ 
+<footer class="w3-container w3-padding-64 w3-center w3-xlarge" style="margin-top:650px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <p class="w3-medium">Shrey Kanabar, Copyright &copy; 2018</p>
+    </footer>
+    
+
+</section>
+</html>
